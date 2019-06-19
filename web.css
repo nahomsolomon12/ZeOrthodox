@@ -1,37 +1,51 @@
 body {
-	margin: 50px 50px 50px 50px ;
+	margin: 25px 25px 25px 25px ;
 	font-family: 'Yanone Kaffeesatz', sans-serif;
 	font-weight: 400;
 	font-display: bold; 
 
 }
-.cover{
-	object-fit: cover;
-}
-.tales {
-	width: 100%;
-  }
-  .carousel-inner{
-	width:100%;
-	max-height: 1500px !important;
-  }
 
 
 
 .content{
 	padding-bottom: 70px; 
+	
+	
+	
 }
 
 
-
-.mail{
+.column, .row:after {
+	box-sizing: border-box;
+  }
+  
+  /* Create three equal columns that floats next to each other */
+  .column {
+	float: left;
+	width: 33.33%;
+	padding: 10px;
+	
+  }
+  .column ul{
+	list-style: none;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+  .mail{
 	text-decoration: none;
 }
 
 .footer{
 	width: 100%;
-	height: auto;
- 	margin: auto;
+	height: 100%;
+	 margin-bottom: 0;
+	 padding-bottom: 0;
 	background: whitesmoke;
 	
 }
